@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/animal-sniffer-annotations-1.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/apiguardian-api-1.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/async-http-client-2.12.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/async-http-client-netty-utils-2.12.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/auto-common-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/auto-service-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/auto-service-annotations-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/bcpkix-jdk15on-1.64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/bcprov-jdk15on-1.64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/byte-buddy-1.9.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/byte-buddy-1.12.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/checker-qual-2.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/checker-qual-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/ci-environment-9.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-beanutils-1.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-beanutils-1.9.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-codec-1.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-codec-1.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-compress-1.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-digester-2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-exec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-httpclient-3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-io-2.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-lang-2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-lang3-3.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-lang3-3.12.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-logging-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/commons-validator-1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-core-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-expressions-16.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-gherkin-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-gherkin-messages-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-java-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-junit-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/cucumber-plugin-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/datatable-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/dec-0.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docker-java-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docker-java-api-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docker-java-core-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docker-java-transport-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docker-java-transport-httpclient5-3.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/docstring-7.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/error_prone_annotations-2.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/error_prone_annotations-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/ezmorph-1.0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/failsafe-3.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/failureaccess-1.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/gherkin-26.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/grid-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/groovy-4.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/groovy-json-4.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/groovy-xml-4.0.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/gson-2.10.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/guava-19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/guava-27.1-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/guava-31.1-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/hamcrest-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/hamcrest-core-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/html-formatter-20.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpclient-4.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpclient-4.5.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpclient5-5.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpcore-4.2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpcore-4.4.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpcore5-5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpcore5-h2-5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpmime-4.2.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/httpmime-4.5.13.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/j2objc-annotations-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/j2objc-annotations-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jackson-annotations-2.10.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jackson-core-2.10.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jackson-databind-2.10.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jakarta.activation-1.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jcip-annotations-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jcip-annotations-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jcl-over-slf4j-1.7.30.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jcommander-1.72.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jcommander-1.82.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jeromq-0.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jetty-repacked-9.4.12.v20180830.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jira-client-0.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jna-5.12.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jnacl-1.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/joda-time-2.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/json-lib-2.4-jdk15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/json-path-5.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jsr305-3.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/jtoml-2.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/junit-4.8.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/junit-4.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/junit-4.13.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/junit-xml-formatter-0.2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/lombok-1.18.28.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/messages-22.0.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/mockito-all-1.9.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-buffer-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-codec-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-codec-http-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-codec-socks-4.1.60.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-common-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-handler-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-handler-proxy-4.1.60.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-reactive-streams-2.0.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-resolver-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-classes-epoll-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-classes-kqueue-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-native-epoll-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-native-kqueue-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/netty-transport-native-unix-common-4.1.78.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/ngwebdriver-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/okhttp-3.14.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/okio-1.17.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-api-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-context-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-exporter-logging-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-common-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-extension-autoconfigure-1.15.0-alpha.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-extension-autoconfigure-spi-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-logs-1.15.0-alpha.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-metrics-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-sdk-trace-1.15.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentelemetry-semconv-1.15.0-alpha.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentracing-api-0.33.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentracing-noop-0.33.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentracing-tracerresolver-0.1.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/opentracing-util-0.33.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/reactive-streams-1.0.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/rest-assured-5.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/rest-assured-common-5.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-api-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-api-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-chrome-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-chrome-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-chromium-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-chromium-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-devtools-v85-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-devtools-v101-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-devtools-v102-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-devtools-v103-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-edge-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-edge-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-edgehtml-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-firefox-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-firefox-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-firefox-xpi-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-http-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-ie-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-ie-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-java-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-java-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-json-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-opera-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-opera-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-remote-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-remote-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-safari-driver-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-safari-driver-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-server-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-support-4.0.0-alpha-2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/selenium-support-4.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/slf4j-api-1.7.30.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/slf4j-api-2.0.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/slf4j-simple-2.0.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/snakeyaml-1.24.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/tag-expressions-5.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/tagsoup-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/webdrivermanager-5.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/ToanHB1/Downloads/lib/xml-path-5.3.1.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
