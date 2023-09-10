@@ -1,0 +1,3 @@
+file:src/test/resources/Features/FromRegisterToRemoveProducts.feature:3
+file:src/test/resources/Features/RegisterPage.feature:116:132
+file:src/test/resources/Features/Personal.feature:43

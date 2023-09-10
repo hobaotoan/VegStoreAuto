@@ -196,7 +196,7 @@ public abstract class AbstractPage implements BaseTest{
 				.until(ExpectedConditions.presenceOfAllElementsLocatedBy(selectElementByType.getIdentifier(accessName)));
 		int index = element.size();
 		WebElement eleIndex = element.get(index - 1);
-        action.moveToElement(eleIndex).perform();
+//        action.moveToElement(eleIndex).perform();
 		borderObj.makeBorder(getDriver(), eleIndex);
 		return element;
 	}

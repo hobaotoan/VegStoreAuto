@@ -6,12 +6,14 @@ import java.util.List;
 
 import cucumber.page.AbstractPage;
 import cucumber.utils.TestCaseFailed;
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.BeforeStep;
-import io.cucumber.java.Scenario;
+import io.cucumber.java.*;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+import static java.awt.SystemColor.window;
 
 public class ForwardStepDefinations extends AbstractPage {
 
@@ -26,20 +28,21 @@ public class ForwardStepDefinations extends AbstractPage {
 	}
 
 
-	@Given("^I navigate to the Sauce website$")
+	@Given("^I navigate to Veg Store website$")
 	public void luanchApp() throws Exception {
 		getDriver().get(URL);
 	}
 
 	@Then("^I enter \"([^\"]*)\" into input \"([^\"]*)\" field$")
 	public void enter_text(String text, String accessName) throws Exception {
-		waitDefault(1);
+		waitDefault(2);
 		inputObj.enterTextField(text, focusOnEle(accessName));
 	}
 
 	@Then("^I click on \"(.*?)\" button$")
-	public void click_ele(String accessName) throws TestCaseFailed {
-		clickObj.moveAndClickEle(focusOnEle(accessName));
+	public void click_ele(String accessName) throws TestCaseFailed, InterruptedException {
+		waitDefault(2);
+		clickObj.moveAndClickEle(focusOnEle(accessName),getDriver());
 	}
 
 	@Then("^I press enter into \"(.*?)\" field$")
@@ -68,7 +71,7 @@ public class ForwardStepDefinations extends AbstractPage {
 	}
 	
 	@Then("^I should\\s*((?:not)?)\\s+see \"(.*?)\" will be displayed on UI$")
-	public void check_element_displayed_on_ui(String present, String accessName) throws TestCaseFailed {
+	public void check_element_displayed_on_ui(String present, String accessName) throws TestCaseFailed, InterruptedException {
 		assertionObj.checkElementPresence(focusOnEle(accessName), present.isEmpty());
 	}
 
@@ -114,10 +117,28 @@ public class ForwardStepDefinations extends AbstractPage {
 		assertionObj.compareTwoListWithTrim(focusOnLastElement(accessName),priceProducts);
 	}
 
-	@Then("^I should be navigate to the Home Page$")
+	@Then("^I should see \"(.*?)\" in alert message$")
+	public void check_alert_message(String text) throws TestCaseFailed {
+		assertionObj.checkAlertMessage(getDriver(),text);
+	}
+
+	@Then("^I should be navigate to Login Page$")
+	public void backLogin() throws Exception {
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/sign-in.html?");
+	}
+
+	@Then("^I should be navigate to Home Page$")
 	public void backHome() throws Exception {
-//		assertionObj.compareCurrentUrl();
-		getDriver().getCurrentUrl().equals("https://www.saucedemo.com/inventory.html");
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/index.html?");
+	}
+	@Then("^I should be navigate to Product Page$")
+	public void backProduct() throws Exception {
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/product.html");
+	}
+
+	@Then("^I move to \"(.*?)\" element$")
+	public void scrolltoElement(String accessName) throws Exception {
+		((JavascriptExecutor) getDriver()).executeScript("arguments[0].scrollIntoView(true);", focusOnEle(accessName));
 	}
 
 	
@@ -125,5 +146,15 @@ public class ForwardStepDefinations extends AbstractPage {
 	public void afterScenario(Scenario scenario) throws InterruptedException {		
 		Thread.sleep(5000);
 		closeBrowser();
+	}
+	@AfterStep
+	public void addScreenshot(Scenario scenario){
+
+		//validate if scenario has failed
+		if(scenario.isFailed()) {
+			final byte[] screenshot = ((TakesScreenshot) getDriver()).getScreenshotAs(OutputType.BYTES);
+			scenario.attach(screenshot, "image/png", "image");
+		}
+
 	}
 }

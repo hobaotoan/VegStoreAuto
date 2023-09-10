@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -236,7 +237,7 @@ public class AssertionMethods extends AbstractPage implements BaseTest {
         for(WebElement element : elements){
             listNameProduct.add(element.getText());
         }
-        assertEquals("Two list not quals, please check!",beCompare,listNameProduct);
+        assertEquals("Two list not equals, please check!",beCompare,listNameProduct);
     }
 
     public void compareTwoListWithTrim(List<WebElement> elements, List<String> beCompare){
@@ -244,7 +245,10 @@ public class AssertionMethods extends AbstractPage implements BaseTest {
         for(WebElement element : elements){
             listNameProduct.add(element.getText().substring(1));
         }
-        assertEquals("Two list not quals, please check!",beCompare,listNameProduct);
+        assertEquals("Two list not equals, please check!",beCompare,listNameProduct);
+    }
+    public void checkAlertMessage(WebDriver driver, String text){
+        assertEquals("Message not equals!",driver.switchTo().alert().getText(),text);
     }
 
 //    public void compareCurrentUrl(){

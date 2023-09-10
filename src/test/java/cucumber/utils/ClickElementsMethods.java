@@ -14,8 +14,9 @@ public class ClickElementsMethods implements BaseTest {
 	 * 
 	 * @param accessNames : String : Locator identifier
 	 */
-	public void moveAndClickEle(WebElement element) {
-		element.click();
+	public void moveAndClickEle(WebElement element, WebDriver driver) {
+		JavascriptExecutor executor = (JavascriptExecutor)driver;
+		executor.executeScript("arguments[0].click();", element);
 	}
 
 	/**
