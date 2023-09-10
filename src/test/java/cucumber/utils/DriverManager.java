@@ -64,8 +64,8 @@ public class DriverManager {
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));
 
-//			return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
-			return new ChromeDriver(chromeOptions);
+			return new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
+//			return new ChromeDriver(chromeOptions);
 		default:
 			final FirefoxOptions ffOptions = new FirefoxOptions();
 
