@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Management Personal page
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 127.8 s <<< FAILURE! -- in Management Personal page
-Management Personal page.As a user, i want to see username, email and number were displayed correct data -- Time elapsed: 39.33 s <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 228.9 s <<< FAILURE! -- in Management Personal page
+Management Personal page.As a user, i want to see username, email and number were displayed correct data -- Time elapsed: 90.65 s <<< ERROR!
 cucumber.utils.TestCaseFailed: 
 
 ********************************************
@@ -12,5 +12,5 @@ Expected : toanb1906785
 
 	at cucumber.utils.AssertionMethods.checkElementTextCompare(AssertionMethods.java:98)
 	at cucumber.step.ForwardStepDefinations.check_element_text(ForwardStepDefinations.java:60)
-	at ✽.I should see "toanb1906785" on "namePersonal"(file:///C:/Users/Admin/Downloads/swager_store/src/test/resources/Features/Personal.feature:37)
+	at ✽.I should see "toanb1906785" on "namePersonal"(file:///C:/Users/Admin/Downloads/veg_store/src/test/resources/Features/Personal.feature:37)
 

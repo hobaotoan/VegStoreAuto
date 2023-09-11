@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Management Product page
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 233.5 s -- in Management Product page
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 534.0 s -- in Management Product page

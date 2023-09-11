@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: Management Registration page
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 234.7 s <<< FAILURE! -- in Management Registration page
-Management Registration page.As a user, i should be register fail with leaves blank number phone input -- Time elapsed: 25.44 s <<< FAILURE!
+Tests run: 9, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 362.1 s <<< FAILURE! -- in Management Registration page
+Management Registration page.As a user, i should be register fail with leaves blank number phone input -- Time elapsed: 37.21 s <<< FAILURE!
 junit.framework.ComparisonFailure: Message not equals! expected:<[Tên đăng nhập ít nhất có 3 ký tự]!> but was:<[Vui lòng nhập số điện thoại]!>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
 	at junit.framework.TestCase.assertEquals(TestCase.java:253)
 	at cucumber.utils.AssertionMethods.checkAlertMessage(AssertionMethods.java:251)
 	at cucumber.step.ForwardStepDefinations.check_alert_message(ForwardStepDefinations.java:122)
-	at ✽.I should see "Vui lòng nhập số điện thoại!" in alert message(file:///C:/Users/Admin/Downloads/swager_store/src/test/resources/Features/RegisterPage.feature:112)
+	at ✽.I should see "Vui lòng nhập số điện thoại!" in alert message(file:///C:/Users/Admin/Downloads/veg_store/src/test/resources/Features/RegisterPage.feature:112)
 
 Management Registration page.As a user, i should be register fail with leaves blank number phone input -- Time elapsed: 0 s <<< ERROR!
 org.openqa.selenium.UnhandledAlertException: 
@@ -17,8 +17,8 @@ unexpected alert open: {Alert text : Tên đăng nhập ít nhất có 3 ký t�
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-A8HQHM9', ip: '172.21.112.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.FfIZjU}, goog:chromeOptions: {debuggerAddress: localhost:34817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4240d6c7438f7dc4fbc4fdf156fd9ec8
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.ej6Cnj}, goog:chromeOptions: {debuggerAddress: localhost:46147}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3407868309e187b6d0cc9f27c7ca3a34
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -27,15 +27,15 @@ Session ID: 4240d6c7438f7dc4fbc4fdf156fd9ec8
 	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:291)
 	at cucumber.step.ForwardStepDefinations.addScreenshot(ForwardStepDefinations.java:155)
 
-Management Registration page.As a user, i should be register fail with leaves blank address input -- Time elapsed: 26.72 s <<< ERROR!
+Management Registration page.As a user, i should be register fail with leaves blank address input -- Time elapsed: 28.69 s <<< ERROR!
 org.openqa.selenium.NoAlertPresentException: 
 no such alert
   (Session info: chrome=115.0.5790.3)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-A8HQHM9', ip: '172.21.112.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.2TTgfH}, goog:chromeOptions: {debuggerAddress: localhost:46609}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.4:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.4:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.4:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: aac2ca20d650443ae8356f0e0b30c3f5
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.qsWJXm}, goog:chromeOptions: {debuggerAddress: localhost:46271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5646fdb9a6ddb93b3f2c362a58777624
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -48,5 +48,5 @@ Session ID: aac2ca20d650443ae8356f0e0b30c3f5
 	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:931)
 	at cucumber.utils.AssertionMethods.checkAlertMessage(AssertionMethods.java:251)
 	at cucumber.step.ForwardStepDefinations.check_alert_message(ForwardStepDefinations.java:122)
-	at ✽.I should see "Vui lòng nhập địa chỉ" in alert message(file:///C:/Users/Admin/Downloads/swager_store/src/test/resources/Features/RegisterPage.feature:128)
+	at ✽.I should see "Vui lòng nhập địa chỉ" in alert message(file:///C:/Users/Admin/Downloads/veg_store/src/test/resources/Features/RegisterPage.feature:128)
 
