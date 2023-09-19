@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="534.185" tests="28" skipped="0" failures="4" errors="0">
-<testcase classname="Management Personal page" name="As a user, i want to see personal page is display as expect" time="137.964">
+<testsuite name="Cucumber" time="309.379" tests="28" skipped="0" failures="4" errors="0">
+<testcase classname="Management Contact page" name="As a user, i want to see contact page is display as expect" time="79.865">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+And I click on "LP_login" button............................................passed
+And I click on "contactPage" button.........................................passed
+Then I should see "LIÊN HỆ." on "titleContact"..............................passed
+And I should see "Địa chỉ: 3/2, Xuân Khánh, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
+And I should see "Đại lý: 30/4, Hưng Lợi, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
+And I should see "Cửa hàng: 1 Lý Tự Trọng, An Lạc, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
+And I should see "Email: cskh@veg.com" displayed on "informationContact" list screen.passed
+And I should see "Hotline: 0123 456 789" displayed on "informationContact" list screen.passed
+And I should see "Website: https://www.vegstore.com/" displayed on "informationContact" list screen.passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Home page" name="As a user, i want to see home page is display as expect" time="116.147">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+When I click on "LP_login" button...........................................passed
+And I wait for 5 sec........................................................passed
+Then I should see "logo" will be displayed on UI............................passed
+And I should see "mainPage" will be displayed on UI.........................passed
+And I should see "introPage" will be displayed on UI........................passed
+And I should see "productsPage" will be displayed on UI.....................passed
+And I should see "contactPage" will be displayed on UI......................passed
+And I should see "cart" will be displayed on UI.............................passed
+And I should see "personal" will be displayed on UI.........................passed
+And I should see "logout" will be displayed on UI...........................passed
+And I should see "carousel" will be displayed on UI.........................passed
+And I should see "titleFeedback" will be displayed on UI....................passed
+And I should see "listCards" will be displayed on UI........................passed
+And I should see "titleHot" will be displayed on UI.........................passed
+And I should see "listProducts" will be displayed on UI.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Personal page" name="As a user, i want to see personal page is display as expect" time="44.256">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -32,7 +88,79 @@ And I should see "save" will be displayed on UI.............................pass
 And I should see "Lưu" on "save"............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Manage work flow for user from register to order product and remove" name="As a user, i should see products will be show correct after select order and remove" time="167.476">
+<testcase classname="Management Registration page" name="As a user, i want to signup successfully with correct value - Example #1.1" time="72.055">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+When I click on "register" button...........................................passed
+Then I should be navigate to Login Page.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Manage work flow for user from register to order product" name="As a user, i should see products will be show correct after select order" time="137.201">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+And I click on "LP_login" button............................................passed
+And I click on "productsPage" button........................................passed
+And I enter "5" into input "firstProduct" field.............................passed
+And I click on "firstOrder" button..........................................passed
+And I enter "5" into input "secondProduct" field............................passed
+And I click on "secondOrder" button.........................................passed
+When I click on "cart" button...............................................passed
+Then I should see "SP01" displayed on "codeProduct" list screen.............passed
+And I should see "SP02" displayed on "codeProduct" list screen..............passed
+And I should see "Bắp Cải" displayed on "detailProductOrder" list screen....passed
+And I should see "Cà Rốt" displayed on "detailProductOrder" list screen.....passed
+And I should see "33.000 ₫" displayed on "detailProductOrder" list screen...passed
+And I should see "16.000 ₫" displayed on "detailProductOrder" list screen...passed
+And I should see "5" displayed on "detailProductOrder" list screen..........passed
+And I should see "165.000 ₫" displayed on "detailProductOrder" list screen..passed
+And I should see "80.000 ₫" displayed on "detailProductOrder" list screen...passed
+And I should see "10" on "quantityCart".....................................passed
+And I should see "245.000 ₫" on "total".....................................passed
+And I should see "22.050 ₫" on "tax"........................................passed
+And I should see "242.550 ₫" on "totalAfterTax".............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Product page" name="As a user, i want to see introduction page is display as expect" time="141.563">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+And I click on "LP_login" button............................................passed
+And I click on "productsPage" button........................................passed
+Then I should see "SẢN PHẨM." on "titleProduct".............................passed
+And I should see "listProduct" will be displayed on UI......................passed
+And I should see "pagination" will be displayed on UI.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Manage work flow for user from register to order product and remove" name="As a user, i should see products will be show correct after select order and remove" time="65.002">
 <failure type="cucumber.utils.TestCaseFailed" message="
 ********************************************
 Actual	 : 5
@@ -81,8 +209,8 @@ And I should see "165.000 ₫" displayed on "detailProductOrder" list screen..pa
 And I should see "80.000 ₫" displayed on "detailProductOrder" list screen...passed
 And I should see "10" on "quantityCart".....................................passed
 And I should see "245.000 ₫" on "total".....................................passed
-And I should see "24.500 ₫" on "tax"........................................passed
-And I should see "269.500 ₫" on "totalAfterTax".............................passed
+And I should see "22.050 ₫" on "tax"........................................passed
+And I should see "242.550 ₫" on "totalAfterTax".............................passed
 When I click on "deleteFirstProduct" button.................................passed
 And I click on "deleteFirstProduct" button..................................passed
 And I should see "0 ₫" on "total"...........................................passed
@@ -91,77 +219,7 @@ And I should see "0 ₫" on "totalAfterTax"...................................pa
 And I should see "0" on "quantityCart"......................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Login page" name="As a user, i want to login successfully with correct value has registered before - Example #1.1" time="130.944">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-When I click on "LP_login" button...........................................passed
-Then I should be navigate to Home Page......................................passed
-And I should see "logo" will be displayed on UI.............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Registration page" name="As a user, i want to signup successfully with correct value - Example #1.1" time="47.146">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-When I click on "register" button...........................................passed
-Then I should be navigate to Login Page.....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Manage work flow for user from register to order product" name="As a user, i should see products will be show correct after select order" time="164.295">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "productsPage" button........................................passed
-And I enter "5" into input "firstProduct" field.............................passed
-And I click on "firstOrder" button..........................................passed
-And I enter "5" into input "secondProduct" field............................passed
-And I click on "secondOrder" button.........................................passed
-When I click on "cart" button...............................................passed
-Then I should see "SP01" displayed on "codeProduct" list screen.............passed
-And I should see "SP02" displayed on "codeProduct" list screen..............passed
-And I should see "Bắp Cải" displayed on "detailProductOrder" list screen....passed
-And I should see "Cà Rốt" displayed on "detailProductOrder" list screen.....passed
-And I should see "33.000 ₫" displayed on "detailProductOrder" list screen...passed
-And I should see "16.000 ₫" displayed on "detailProductOrder" list screen...passed
-And I should see "5" displayed on "detailProductOrder" list screen..........passed
-And I should see "165.000 ₫" displayed on "detailProductOrder" list screen..passed
-And I should see "80.000 ₫" displayed on "detailProductOrder" list screen...passed
-And I should see "10" on "quantityCart".....................................passed
-And I should see "245.000 ₫" on "total".....................................passed
-And I should see "24.500 ₫" on "tax"........................................passed
-And I should see "269.500 ₫" on "totalAfterTax".............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Cart Details page" name="As a user, i want to see cart details page is display default as expect" time="137.866">
+<testcase classname="Management Cart Details page" name="As a user, i want to see cart details page is display default as expect" time="45.266">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -191,59 +249,7 @@ And I should see "Tổng đơn hàng = A - B + C = 0 ₫" displayed on "informat
 And I should see "0" on "quantityCart"......................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i want to see home page is display as expect" time="227.643">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-Then I should see "logo" will be displayed on UI............................passed
-And I should see "mainPage" will be displayed on UI.........................passed
-And I should see "introPage" will be displayed on UI........................passed
-And I should see "productsPage" will be displayed on UI.....................passed
-And I should see "contactPage" will be displayed on UI......................passed
-And I should see "cart" will be displayed on UI.............................passed
-And I should see "personal" will be displayed on UI.........................passed
-And I should see "logout" will be displayed on UI...........................passed
-And I should see "carousel" will be displayed on UI.........................passed
-And I should see "titleFeedback" will be displayed on UI....................passed
-And I should see "listCards" will be displayed on UI........................passed
-And I should see "titleHot" will be displayed on UI.........................passed
-And I should see "listProducts" will be displayed on UI.....................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Product page" name="As a user, i want to see introduction page is display as expect" time="138.141">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "productsPage" button........................................passed
-Then I should see "SẢN PHẨM." on "titleProduct".............................passed
-And I should see "listProduct" will be displayed on UI......................passed
-And I should see "pagination" will be displayed on UI.......................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Introduction page" name="As a user, i want to see introduction page is display as expect" time="142.666">
+<testcase classname="Management Introduction page" name="As a user, i want to see introduction page is display as expect" time="148.499">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -268,7 +274,7 @@ And I should see "policyCard" will be displayed on UI.......................pass
 And I should see "imgIntro" will be displayed on UI.........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Contact page" name="As a user, i want to see contact page is display as expect" time="159.786">
+<testcase classname="Management Login page" name="As a user, i want to login successfully with correct value has registered before - Example #1.1" time="38.656">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -282,33 +288,12 @@ And I enter "Ly Tu Trong" into input "address" field........................pass
 And I click on "register" button............................................passed
 And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
 And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "contactPage" button.........................................passed
-Then I should see "LIÊN HỆ." on "titleContact"..............................passed
-And I should see "Địa chỉ: 3/2, Xuân Khánh, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
-And I should see "Đại lý: 30/4, Hưng Lợi, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
-And I should see "Cửa hàng: 1 Lý Tự Trọng, An Lạc, Ninh Kiều, TP.Cần Thơ" displayed on "informationContact" list screen.passed
-And I should see "Email: cskh@veg.com" displayed on "informationContact" list screen.passed
-And I should see "Hotline: 0123 456 789" displayed on "informationContact" list screen.passed
-And I should see "Website: https://www.vegstore.com/" displayed on "informationContact" list screen.passed
+When I click on "LP_login" button...........................................passed
+Then I should be navigate to Home Page......................................passed
+And I should see "logo" will be displayed on UI.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank password input - Example #1.1" time="128.094">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "" into input "password" field..................................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-When I click on "register" button...........................................passed
-Then I should see "Mật khẩu phải ít nhất 6 ký tự!" in alert message.........passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.1" time="50.731">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.1" time="42.071">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -326,7 +311,7 @@ When I click on "LP_login" button...........................................pass
 Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Personal page" name="As a user, i want to see username, email and number were displayed correct data - Example #1.1" time="90.642">
+<testcase classname="Management Personal page" name="As a user, i want to see username, email and number were displayed correct data - Example #1.1" time="59.079">
 <failure type="cucumber.utils.TestCaseFailed" message="
 ********************************************
 Actual	 : null
@@ -364,45 +349,22 @@ And I should see "toanautomation@grr.la" on "emailPersonal".................skip
 And I should see "0123456789" on "numberPersonal"...........................skipped
 ]]></system-out>
 </testcase>
-<testcase classname="Management Product page" name="As a user, i want to see product display as expect" time="93.735">
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank password input - Example #1.1" time="36.615">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
 And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "productsPage" button........................................passed
-Then I should see "imgProduct" will be displayed on UI......................passed
-And I should see "nameProduct" will be displayed on UI......................passed
-And I should see "descriptionProduct" will be displayed on UI...............passed
-And I should see "quantityProduct" will be displayed on UI..................passed
-And I should see "orderProduct" will be displayed on UI.....................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank username input - Example #1.1" time="30.495">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "" into input "username" field..................................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
+And I enter "" into input "password" field..................................passed
 And I enter "123456aA@" into input "confirmpassword" field..................passed
 And I click on "male" button................................................passed
 And I enter "16/09/2001" into input "birthday" field........................passed
 And I enter "0123456789" into input "number" field..........................passed
 And I enter "Ly Tu Trong" into input "address" field........................passed
 When I click on "register" button...........................................passed
-Then I should see "Tên đăng nhập ít nhất có 3 ký tự!" in alert message......passed
+Then I should see "Mật khẩu phải ít nhất 6 ký tự!" in alert message.........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.2" time="33.455">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.2" time="70.014">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -420,25 +382,10 @@ When I click on "LP_login" button...........................................pass
 Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank confirm password input - Example #1.1" time="30.841">
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank username input - Example #1.1" time="60.647">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "" into input "confirmpassword" field...........................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-When I click on "register" button...........................................passed
-Then I should see "Mật khẩu nhập lại không đúng!" in alert message..........passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.3" time="35.089">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
+And I enter "" into input "username" field..................................passed
 And I enter "toanautomation@grr.la" into input "email" field................passed
 And I enter "123456aA@" into input "password" field.........................passed
 And I enter "123456aA@" into input "confirmpassword" field..................passed
@@ -446,14 +393,11 @@ And I click on "male" button................................................pass
 And I enter "16/09/2001" into input "birthday" field........................passed
 And I enter "0123456789" into input "number" field..........................passed
 And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@rr.la" into input "LP_email" field..............passed
-And I enter "12345aA@" into input "LP_password" field.......................passed
-When I click on "LP_login" button...........................................passed
-Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
+When I click on "register" button...........................................passed
+Then I should see "Tên đăng nhập ít nhất có 3 ký tự!" in alert message......passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i want to see feedback card display as expect" time="52.246">
+<testcase classname="Management Home page" name="As a user, i want to see feedback card display as expect" time="62.192">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -477,7 +421,7 @@ And I should see "textCards" will be displayed on UI........................pass
 And I should see "statusCards" will be displayed on UI......................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to first of pagination" time="154.533">
+<testcase classname="Management Product page" name="As a user, i want to see product display as expect" time="45.527">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -493,7 +437,6 @@ And I enter "toanautomation@grr.la" into input "LP_email" field.............pass
 And I enter "123456aA@" into input "LP_password" field......................passed
 And I click on "LP_login" button............................................passed
 And I click on "productsPage" button........................................passed
-When I click on "paginationFirst" button....................................passed
 Then I should see "imgProduct" will be displayed on UI......................passed
 And I should see "nameProduct" will be displayed on UI......................passed
 And I should see "descriptionProduct" will be displayed on UI...............passed
@@ -501,21 +444,7 @@ And I should see "quantityProduct" will be displayed on UI..................pass
 And I should see "orderProduct" will be displayed on UI.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank sex textbox - Example #1.1" time="31.019">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-When I click on "register" button...........................................passed
-Then I should see "Vui lòng chọn giới tính!" in alert message...............passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank birthday input - Example #1.1" time="28.118">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.3" time="35.135">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -523,14 +452,32 @@ And I enter "toanautomation@grr.la" into input "email" field................pass
 And I enter "123456aA@" into input "password" field.........................passed
 And I enter "123456aA@" into input "confirmpassword" field..................passed
 And I click on "male" button................................................passed
-And I enter "21354sda" into input "birthday" field..........................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@rr.la" into input "LP_email" field..............passed
+And I enter "12345aA@" into input "LP_password" field.......................passed
+When I click on "LP_login" button...........................................passed
+Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank confirm password input - Example #1.1" time="28.296">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "" into input "confirmpassword" field...........................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
 And I enter "0123456789" into input "number" field..........................passed
 And I enter "Ly Tu Trong" into input "address" field........................passed
 When I click on "register" button...........................................passed
-Then I should see "Nhập không đúng format ngày sinh" in alert message.......passed
+Then I should see "Mật khẩu nhập lại không đúng!" in alert message..........passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i want to see product card display as expect" time="48.053">
+<testcase classname="Management Home page" name="As a user, i want to see product card display as expect" time="42.252">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -554,7 +501,104 @@ And I should see "descriptionProducts" will be displayed on UI..............pass
 And I should see "orderProducts" will be displayed on UI....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank number phone input - Example #1.1" time="37.203">
+<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to first of pagination" time="40.936">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+And I click on "LP_login" button............................................passed
+And I click on "productsPage" button........................................passed
+When I click on "paginationFirst" button....................................passed
+Then I should see "imgProduct" will be displayed on UI......................passed
+And I should see "nameProduct" will be displayed on UI......................passed
+And I should see "descriptionProduct" will be displayed on UI...............passed
+And I should see "quantityProduct" will be displayed on UI..................passed
+And I should see "orderProduct" will be displayed on UI.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank sex textbox - Example #1.1" time="25.444">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+When I click on "register" button...........................................passed
+Then I should see "Vui lòng chọn giới tính!" in alert message...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Home page" name="As a user, i should be navigated to product page after click order in Home Page" time="42.947">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+When I click on "LP_login" button...........................................passed
+And I wait for 5 sec........................................................passed
+When I click on "orderProducts" button......................................passed
+Then I should be navigate to Product Page...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank birthday input - Example #1.1" time="27.717">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "21354sda" into input "birthday" field..........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+When I click on "register" button...........................................passed
+Then I should see "Nhập không đúng format ngày sinh" in alert message.......passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to second of pagination" time="40.918">
+<system-out><![CDATA[
+Given I navigate to Veg Store website.......................................passed
+And I enter "toanb1906785" into input "username" field......................passed
+And I enter "toanautomation@grr.la" into input "email" field................passed
+And I enter "123456aA@" into input "password" field.........................passed
+And I enter "123456aA@" into input "confirmpassword" field..................passed
+And I click on "male" button................................................passed
+And I enter "16/09/2001" into input "birthday" field........................passed
+And I enter "0123456789" into input "number" field..........................passed
+And I enter "Ly Tu Trong" into input "address" field........................passed
+And I click on "register" button............................................passed
+And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "123456aA@" into input "LP_password" field......................passed
+And I click on "LP_login" button............................................passed
+And I click on "productsPage" button........................................passed
+When I click on "paginationSecond" button...................................passed
+Then I should see "imgProduct" will be displayed on UI......................passed
+And I should see "nameProduct" will be displayed on UI......................passed
+And I should see "descriptionProduct" will be displayed on UI...............passed
+And I should see "quantityProduct" will be displayed on UI..................passed
+And I should see "orderProduct" will be displayed on UI.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank number phone input - Example #1.1" time="27.242">
 <failure type="junit.framework.ComparisonFailure" message="Message not equals! expected:&lt;[Tên đăng nhập ít nhất có 3 ký tự]!&gt; but was:&lt;[Vui lòng nhập số điện thoại]!&gt;">
 <![CDATA[junit.framework.ComparisonFailure: Message not equals! expected:<[Tên đăng nhập ít nhất có 3 ký tự]!> but was:<[Vui lòng nhập số điện thoại]!>
 	at junit.framework.Assert.assertEquals(Assert.java:100)
@@ -578,7 +622,7 @@ When I click on "register" button...........................................pass
 Then I should see "Vui lòng nhập số điện thoại!" in alert message...........failed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i should be navigated to product page after click order in Home Page" time="56.644">
+<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to last of pagination" time="40.156">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -592,27 +636,31 @@ And I enter "Ly Tu Trong" into input "address" field........................pass
 And I click on "register" button............................................passed
 And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
 And I enter "123456aA@" into input "LP_password" field......................passed
-When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-When I click on "orderProducts" button......................................passed
-Then I should be navigate to Product Page...................................passed
+And I click on "LP_login" button............................................passed
+And I click on "productsPage" button........................................passed
+When I click on "paginationLast" button.....................................passed
+Then I should see "imgProduct" will be displayed on UI......................passed
+And I should see "nameProduct" will be displayed on UI......................passed
+And I should see "descriptionProduct" will be displayed on UI...............passed
+And I should see "quantityProduct" will be displayed on UI..................passed
+And I should see "orderProduct" will be displayed on UI.....................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank address input - Example #1.1" time="28.684">
+<testcase classname="Management Registration page" name="As a user, i should be register fail with leaves blank address input - Example #1.1" time="27.655">
 <failure type="org.openqa.selenium.NoAlertPresentException" message="no such alert
-  (Session info: chrome=115.0.5790.3)
+  (Session info: chrome=116.0.5845.187)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-A8HQHM9', ip: '172.21.112.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.qsWJXm}, goog:chromeOptions: {debuggerAddress: localhost:46271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5646fdb9a6ddb93b3f2c362a58777624">
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.6:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.21.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: addbd2b59e678062175d22cda4f02645">
 <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=115.0.5790.3)
+  (Session info: chrome=116.0.5845.187)
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
 System info: host: 'DESKTOP-A8HQHM9', ip: '172.21.112.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 115.0.5790.3, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: /tmp/.com.google.Chrome.qsWJXm}, goog:chromeOptions: {debuggerAddress: localhost:46271}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.19.0.3:4444/sessio..., se:cdpVersion: 115.0.5790.3, se:vnc: ws://172.19.0.3:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.19.0.3:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5646fdb9a6ddb93b3f2c362a58777624
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.187, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:40645}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), se:bidiEnabled: false, se:cdp: ws://172.21.0.6:4444/sessio..., se:cdpVersion: 116.0.5845.187, se:vnc: ws://172.21.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.21.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: addbd2b59e678062175d22cda4f02645
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
@@ -640,54 +688,6 @@ And I enter "0123456789" into input "number" field..........................pass
 And I enter "" into input "address" field...................................passed
 When I click on "register" button...........................................passed
 Then I should see "Vui lòng nhập địa chỉ" in alert message..................failed
-]]></system-out>
-</testcase>
-<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to second of pagination" time="65.091">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "productsPage" button........................................passed
-When I click on "paginationSecond" button...................................passed
-Then I should see "imgProduct" will be displayed on UI......................passed
-And I should see "nameProduct" will be displayed on UI......................passed
-And I should see "descriptionProduct" will be displayed on UI...............passed
-And I should see "quantityProduct" will be displayed on UI..................passed
-And I should see "orderProduct" will be displayed on UI.....................passed
-]]></system-out>
-</testcase>
-<testcase classname="Management Product page" name="As a user, i want to see product display as expect after navigate to last of pagination" time="82.062">
-<system-out><![CDATA[
-Given I navigate to Veg Store website.......................................passed
-And I enter "toanb1906785" into input "username" field......................passed
-And I enter "toanautomation@grr.la" into input "email" field................passed
-And I enter "123456aA@" into input "password" field.........................passed
-And I enter "123456aA@" into input "confirmpassword" field..................passed
-And I click on "male" button................................................passed
-And I enter "16/09/2001" into input "birthday" field........................passed
-And I enter "0123456789" into input "number" field..........................passed
-And I enter "Ly Tu Trong" into input "address" field........................passed
-And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
-And I click on "LP_login" button............................................passed
-And I click on "productsPage" button........................................passed
-When I click on "paginationLast" button.....................................passed
-Then I should see "imgProduct" will be displayed on UI......................passed
-And I should see "nameProduct" will be displayed on UI......................passed
-And I should see "descriptionProduct" will be displayed on UI...............passed
-And I should see "quantityProduct" will be displayed on UI..................passed
-And I should see "orderProduct" will be displayed on UI.....................passed
 ]]></system-out>
 </testcase>
 </testsuite>

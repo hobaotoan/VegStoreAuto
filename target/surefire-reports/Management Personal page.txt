@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Management Personal page
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 228.9 s <<< FAILURE! -- in Management Personal page
-Management Personal page.As a user, i want to see username, email and number were displayed correct data -- Time elapsed: 90.65 s <<< ERROR!
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 103.5 s <<< FAILURE! -- in Management Personal page
+Management Personal page.As a user, i want to see username, email and number were displayed correct data -- Time elapsed: 59.08 s <<< ERROR!
 cucumber.utils.TestCaseFailed: 
 
 ********************************************

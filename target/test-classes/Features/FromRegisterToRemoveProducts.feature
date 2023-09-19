@@ -31,8 +31,8 @@ Feature: Manage work flow for user from register to order product and remove
     And   I should see "80.000 ₫" displayed on "detailProductOrder" list screen
     And   I should see "10" on "quantityCart"
     And   I should see "245.000 ₫" on "total"
-    And   I should see "24.500 ₫" on "tax"
-    And   I should see "269.500 ₫" on "totalAfterTax"
+    And   I should see "22.050 ₫" on "tax"
+    And   I should see "242.550 ₫" on "totalAfterTax"
     When  I click on "deleteFirstProduct" button
     And   I click on "deleteFirstProduct" button
     And   I should see "0 ₫" on "total"

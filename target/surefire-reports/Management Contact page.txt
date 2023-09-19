@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Management Contact page
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 160.2 s -- in Management Contact page
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 80.04 s -- in Management Contact page

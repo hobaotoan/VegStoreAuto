@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: Manage work flow for user from register to order product and remove
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 167.7 s <<< FAILURE! -- in Manage work flow for user from register to order product and remove
-Manage work flow for user from register to order product and remove.As a user, i should see products will be show correct after select order and remove -- Time elapsed: 167.7 s <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 65.19 s <<< FAILURE! -- in Manage work flow for user from register to order product and remove
+Manage work flow for user from register to order product and remove.As a user, i should see products will be show correct after select order and remove -- Time elapsed: 65.19 s <<< ERROR!
 cucumber.utils.TestCaseFailed: 
 
 ********************************************
