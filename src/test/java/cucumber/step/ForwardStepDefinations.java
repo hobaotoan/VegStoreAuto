@@ -124,16 +124,16 @@ public class ForwardStepDefinations extends AbstractPage {
 
 	@Then("^I should be navigate to Login Page$")
 	public void backLogin() throws Exception {
-		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/sign-in.html?");
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/sign-in.html?");
 	}
 
 	@Then("^I should be navigate to Home Page$")
 	public void backHome() throws Exception {
-		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/index.html?");
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/index.html?");
 	}
 	@Then("^I should be navigate to Product Page$")
 	public void backProduct() throws Exception {
-		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/VegStore/product.html");
+		getDriver().getCurrentUrl().equals("https://hobaotoan.github.io/product.html");
 	}
 
 	@Then("^I move to \"(.*?)\" element$")

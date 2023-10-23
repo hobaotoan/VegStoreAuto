@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="210.83" tests="4" skipped="0" failures="0" errors="0">
-<testcase classname="Management Home page" name="As a user, i want to see home page is display as expect" time="53.666">
+<testsuite name="Cucumber" time="143.677" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Management Login page" name="As a user, i want to login successfully with correct value has registered before - Example #1.1" time="38.732">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -15,23 +15,11 @@ And I click on "register" button............................................pass
 And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
 And I enter "123456aA@" into input "LP_password" field......................passed
 When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-Then I should see "logo" will be displayed on UI............................passed
-And I should see "mainPage" will be displayed on UI.........................passed
-And I should see "introPage" will be displayed on UI........................passed
-And I should see "productsPage" will be displayed on UI.....................passed
-And I should see "contactPage" will be displayed on UI......................passed
-And I should see "cart" will be displayed on UI.............................passed
-And I should see "personal" will be displayed on UI.........................passed
-And I should see "logout" will be displayed on UI...........................passed
-And I should see "carousel" will be displayed on UI.........................passed
-And I should see "titleFeedback" will be displayed on UI....................passed
-And I should see "listCards" will be displayed on UI........................passed
-And I should see "titleHot" will be displayed on UI.........................passed
-And I should see "listProducts" will be displayed on UI.....................passed
+Then I should be navigate to Home Page......................................passed
+And I should see "logo" will be displayed on UI.............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i want to see feedback card display as expect" time="72.458">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.1" time="35.757">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -44,18 +32,12 @@ And I enter "0123456789" into input "number" field..........................pass
 And I enter "Ly Tu Trong" into input "address" field........................passed
 And I click on "register" button............................................passed
 And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
+And I enter "" into input "LP_password" field...............................passed
 When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-When I move to "titleFeedback" element......................................passed
-Then I should see "imgCards" will be displayed on UI........................passed
-And I should see "nameCards" will be displayed on UI........................passed
-And I should see "starCards" will be displayed on UI........................passed
-And I should see "textCards" will be displayed on UI........................passed
-And I should see "statusCards" will be displayed on UI......................passed
+Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i want to see product card display as expect" time="41.158">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.2" time="34.256">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -67,19 +49,13 @@ And I enter "16/09/2001" into input "birthday" field........................pass
 And I enter "0123456789" into input "number" field..........................passed
 And I enter "Ly Tu Trong" into input "address" field........................passed
 And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
+And I enter "" into input "LP_email" field..................................passed
 And I enter "123456aA@" into input "LP_password" field......................passed
 When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-When I move to "titleHot" element...........................................passed
-Then I should see "imageProducts" will be displayed on UI...................passed
-And I should see "nameProducts" will be displayed on UI.....................passed
-And I should see "priceProducts" will be displayed on UI....................passed
-And I should see "descriptionProducts" will be displayed on UI..............passed
-And I should see "orderProducts" will be displayed on UI....................passed
+Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
 ]]></system-out>
 </testcase>
-<testcase classname="Management Home page" name="As a user, i should be navigated to product page after click order in Home Page" time="42.944">
+<testcase classname="Management Login page" name="As a user, i should see a message show in alert with incorrect data - Example #1.3" time="34.625">
 <system-out><![CDATA[
 Given I navigate to Veg Store website.......................................passed
 And I enter "toanb1906785" into input "username" field......................passed
@@ -91,12 +67,10 @@ And I enter "16/09/2001" into input "birthday" field........................pass
 And I enter "0123456789" into input "number" field..........................passed
 And I enter "Ly Tu Trong" into input "address" field........................passed
 And I click on "register" button............................................passed
-And I enter "toanautomation@grr.la" into input "LP_email" field.............passed
-And I enter "123456aA@" into input "LP_password" field......................passed
+And I enter "toanautomation@rr.la" into input "LP_email" field..............passed
+And I enter "12345aA@" into input "LP_password" field.......................passed
 When I click on "LP_login" button...........................................passed
-And I wait for 5 sec........................................................passed
-When I click on "orderProducts" button......................................passed
-Then I should be navigate to Product Page...................................passed
+Then I should see "Email hoặc Mật Khẩu không trùng khớp với lúc đăng ký" in alert message.passed
 ]]></system-out>
 </testcase>
 </testsuite>
