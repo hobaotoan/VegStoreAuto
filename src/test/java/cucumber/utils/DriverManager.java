@@ -31,11 +31,11 @@ public class DriverManager {
 	 * By default to web driver will be chrome
 	 * <p>
 	 * Override it by passing -Dbrowser=Chrome to the command line arguments
-	 *
+	 * Test
 	 * @return webdriver
 	 */
 	private static WebDriver chooseDriver() throws MalformedURLException {
-		String preferredDriver = System.getProperty("browser", "");
+		String preferredDriver = System.getProperty("browser", "chrome");
 		boolean headless = System.getProperty("headless", "false").equals("true");
 
 		switch (preferredDriver.toLowerCase()) {
@@ -64,7 +64,7 @@ public class DriverManager {
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));
 
-			return new RemoteWebDriver(new URL("http://13.212.57.179/:4444/wd/hub"), chromeOptions);
+			return new RemoteWebDriver(new URL("http://13.212.57.179:4444/wd/hub"), chromeOptions);
 //			return new ChromeDriver(chromeOptions);
 		default:
 			final FirefoxOptions ffOptions = new FirefoxOptions();
