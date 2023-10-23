@@ -10,7 +10,7 @@ pipelines:
             script:
               - mvn clean test
             after-script:
-              # Collect checkstyle results, if any, and convert to Bitbucket Code Insights.
+              # Collect checkstyle cxcz dsadsaresults, if any, and convert to Bitbucket Code Insights.
               - pipe: atlassian/checkstyle-report:0.3.0
         - step:
             name: Security Scan
