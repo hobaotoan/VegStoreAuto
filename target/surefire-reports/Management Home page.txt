@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Management Home page
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 263.7 s -- in Management Home page
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 210.6 s -- in Management Home page
