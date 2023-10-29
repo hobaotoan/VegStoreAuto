@@ -30,7 +30,7 @@ public class DriverManager {
 	/**
 	 * By default to web driver will be chrome
 	 * <p>
-	 * Override it by passing -Dbrowser=Chrome to the command line arguments
+	 * Override it by acbpassing -Dbrowser=Chrome to the command line arguments
 	 * Test
 	 * @return webdriver
 	 */
