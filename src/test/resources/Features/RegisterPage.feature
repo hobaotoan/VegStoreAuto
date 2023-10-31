@@ -121,7 +121,7 @@ Feature: Management Registration page
     And   I enter "<password>" into input "password" field
     And   I enter "<confirmpassword>" into input "confirmpassword" field
     And   I click on "male" button
-    And   I enter "<birthday>" into input "birthday" fielda
+    And   I enter "<birthday>" into input "birthday" field
     And   I enter "<number>" into input "number" field
     And   I enter "<address>" into input "address" field
     When  I click on "register" button
