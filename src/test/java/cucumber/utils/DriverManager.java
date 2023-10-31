@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -35,14 +36,15 @@ public class DriverManager {
 	 * @return webdriver
 	 */
 	private static WebDriver chooseDriver() throws MalformedURLException {
-		String preferredDriver = System.getProperty("browser", "");
+		String preferredDriver = System.getProperty("browser", "edge");
 		boolean headless = System.getProperty("headless", "false").equals("true");
 
 		switch (preferredDriver.toLowerCase()) {
 		case "safari":
 			return new SafariDriver();
 		case "edge":
-			return new EdgeDriver();
+			final EdgeOptions edgeOptions = new EdgeOptions();
+			return new RemoteWebDriver(new URL("http://175.41.176.54:4444/wd/hub"), edgeOptions);
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			final ChromeOptions chromeOptions = new ChromeOptions();
