@@ -35,7 +35,7 @@ public class DriverManager {
 	 * @return webdriver
 	 */
 	private static WebDriver chooseDriver() throws MalformedURLException {
-		String preferredDriver = System.getProperty("browser", "chrome");
+		String preferredDriver = System.getProperty("browser", "");
 		boolean headless = System.getProperty("headless", "false").equals("true");
 
 		switch (preferredDriver.toLowerCase()) {
@@ -72,8 +72,8 @@ public class DriverManager {
 			if (headless) {
 				ffOptions.setHeadless(true);
 			}
-//			return new RemoteWebDriver(new URL("http://175.41.176.54:4444/wd/hub"), ffOptions);
-			return new FirefoxDriver(ffOptions);
+			return new RemoteWebDriver(new URL("http://175.41.176.54:4444/wd/hub"), ffOptions);
+//			return new FirefoxDriver(ffOptions);
 		}
 	}
 
