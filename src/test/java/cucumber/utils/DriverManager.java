@@ -44,7 +44,7 @@ public class DriverManager {
 			return new SafariDriver();
 		case "edge":
 			final EdgeOptions edgeOptions = new EdgeOptions();
-			return new RemoteWebDriver(new URL("http://175.41.176.54:4444/wd/hub"), edgeOptions);
+			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), edgeOptions);
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			final ChromeOptions chromeOptions = new ChromeOptions();
