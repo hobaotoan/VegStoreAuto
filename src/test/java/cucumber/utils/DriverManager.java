@@ -36,7 +36,7 @@ public class DriverManager {
 	 * @return webdriver
 	 */
 	private static WebDriver chooseDriver() throws MalformedURLException {
-		String preferredDriver = System.getProperty("browser", "edge");
+		String preferredDriver = System.getProperty("browser", "chrome");
 		boolean headless = System.getProperty("headless", "false").equals("true");
 
 		switch (preferredDriver.toLowerCase()) {
