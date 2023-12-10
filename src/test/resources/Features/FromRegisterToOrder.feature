@@ -31,7 +31,7 @@ Feature: Manage work flow for user from register to order product
     And   I should see "80.000 ₫" displayed on "detailProductOrder" list screen
     And   I should see "10" on "quantityCart"
     And   I should see "245.000 ₫" on "total"
-    And   I should see "24.500 ₫" on "tax"
+    And   I should see "24.050 ₫" on "tax"
     And   I should see "269.500 ₫" on "totalAfterTax"
 
 
