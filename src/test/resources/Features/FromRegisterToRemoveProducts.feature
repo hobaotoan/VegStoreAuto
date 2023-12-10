@@ -38,7 +38,7 @@ Feature: Manage work flow for user from register to order product and remove
     And   I should see "0 ₫" on "total"
     And   I should see "0 ₫" on "tax"
     And   I should see "0 ₫" on "totalAfterTax"
-    And   I should see "0" on "quantityCart"
+    And   I should see "5" on "quantityCart"
 
 
 
