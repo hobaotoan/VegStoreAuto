@@ -36,7 +36,7 @@ public class DriverManager {
 	 * @return webdriver
 	 */
 	private static WebDriver chooseDriver() throws MalformedURLException {
-		String preferredDriver = System.getProperty("browser", "");
+		String preferredDriver = System.getProperty("browser", "chrome");
 		boolean headless = System.getProperty("headless", "false").equals("true");
 
 		switch (preferredDriver.toLowerCase()) {
@@ -66,8 +66,8 @@ public class DriverManager {
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));
 
-			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), chromeOptions);
-//			return new ChromeDriver(chromeOptions);
+//			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), chromeOptions);
+			return new ChromeDriver(chromeOptions);
 		default:
 			final FirefoxOptions ffOptions = new FirefoxOptions();
 
