@@ -44,7 +44,7 @@ public class DriverManager {
 			return new SafariDriver();
 		case "edge":
 			final EdgeOptions edgeOptions = new EdgeOptions();
-			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), edgeOptions);
+			return new RemoteWebDriver(new URL("http://18.143.141.36:4444/wd/hub"), edgeOptions);
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
 			final ChromeOptions chromeOptions = new ChromeOptions();
@@ -66,7 +66,7 @@ public class DriverManager {
 			chromeOptions.addArguments("--disable-notifications");
 			chromeOptions.setExperimentalOption("excludeSwitches",Collections.singletonList("enable-automation"));
 
-			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), chromeOptions);
+			return new RemoteWebDriver(new URL("http://18.143.141.36:4444/wd/hub"), chromeOptions);
 //			return new ChromeDriver(chromeOptions);
 		default:
 			final FirefoxOptions ffOptions = new FirefoxOptions();
@@ -74,7 +74,7 @@ public class DriverManager {
 			if (headless) {
 				ffOptions.setHeadless(true);
 			}
-			return new RemoteWebDriver(new URL("http://52.77.211.193:4444/wd/hub"), ffOptions);
+			return new RemoteWebDriver(new URL("http://18.143.141.36:4444/wd/hub"), ffOptions);
 //			return new FirefoxDriver(ffOptions);
 		}
 	}
